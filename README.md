@@ -1,11 +1,17 @@
 # 2018-tinachi-tool-wear-prediction
 
-Notebooks to solve tool wear prediction
+Notebooks to solve tool wear prediction of a tianchi competitation[https://tianchi.aliyun.com/]
 
-1. Preprocessing
+Problems
 
-Notebooks starts with "PrepProcess"
+Data
+* PLC data: PLC data contains position information and machine movements
+* Sensor data: high frequecy vibration data from sensor attached to machine
 
-2. EDA
+1. Preprocessing & EDA
 
-3. Modelling
+Notebooks starts with "PrepProcess" and "EDA"
+
+2. Modelling
+
+Modelling with some fine tunning and autoML
